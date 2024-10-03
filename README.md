@@ -1,4 +1,4 @@
-This project is a large language model (LLM)-powered application that analyzes the carbon footprint of your grocery runs. It uses the Aleph Alpha LLM API for semantic embeddings and Microsoft's Azure Form Recognizer for receipt data extraction via OCR. The app processes grocery receipts, calculates the carbon footprint of purchased items, and displays the analysis on a web interface built with Flask, Jinja, and Bootstrap.
+This project is a large language model (LLM)-powered application that analyzes the carbon footprint of your grocery Bill of Materials.
 
 Key Components:
 
