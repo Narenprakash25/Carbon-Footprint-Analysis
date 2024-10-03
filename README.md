@@ -2,10 +2,10 @@ This project is a large language model (LLM)-powered application that analyzes t
 
 Key Components:
 
-Flask: Backend framework to process calculations and serve the app.
-Aleph Alpha: Provides LLM-based semantic embeddings for matching items on receipts.
-Microsoft Form Recognizer: Extracts structured data from receipt images using OCR.
-Jinja & Bootstrap: Frontend template and CSS styling for the web interface.
+* Flask: Backend framework to process calculations and serve the app.
+* Aleph Alpha: Provides LLM-based semantic embeddings for matching items on receipts.
+* Microsoft Form Recognizer: Extracts structured data from receipt images using OCR.
+* Jinja & Bootstrap: Frontend template and CSS styling for the web interface.
 
 The Process Flow of This Application:
 
