@@ -1,6 +1,6 @@
 This project is a large language model (LLM)-powered application that analyzes the carbon footprint of your grocery Bill of Materials.
 
-![Alt Text](path/to/image.png)
+![Alt Text](https://github.com/Narenprakash25/Carbon-Footprint-Analysis/blob/cbcf88a5e577918423ea77d3cf4ae6ee9dac1401/BoM_Example.png)
 
 Key Components:
 
