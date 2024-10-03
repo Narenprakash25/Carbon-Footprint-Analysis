@@ -1,0 +1,69 @@
+header {
+  background-color: #18245a;
+  height: 35px;
+  opacity: 1;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+header h1.logo {
+  margin-top: -14px;
+  font-size: 1.7em;
+  color: #fff;
+
+}
+
+div.home {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+.home_page {
+  display:flex; 
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+}
+
+a {
+  color: black;
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-file-button input[type=file] {
+  margin-left: -2px !important;
+}
+
+.custom-file-button input[type=file]::-webkit-file-upload-button {
+  display: none;
+}
+
+.custom-file-button input[type=file]::file-selector-button {
+  display: none;
+}
+
+.custom-file-button:hover label {
+  background-color: #dde0e3;
+  cursor: pointer;
+}

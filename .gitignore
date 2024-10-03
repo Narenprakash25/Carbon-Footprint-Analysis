@@ -1,0 +1,14 @@
+
+# Environments
+
+__pycache__
+
+env/
+
+/not_recognized.*
+
+.env
+
+pm/
+
+.vscode

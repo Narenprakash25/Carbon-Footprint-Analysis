@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if error_message  %}
+<div class="invalid-feedback">
+    
+    <p>{{ error_message }}</p>
+    
+</div>
+{% endif %}
+
+
+
+<div class="content-section bg-light p-2 mb-5 rounded justify-content-center align-self-center mt-5">
+    <form method="POST" action="" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Grocery receipt analysis</legend>
+            <div class="form-group">
+                {{ form.receipt.label(class="form-control-label") }}
+                {% if form.receipt.errors %}
+                    <div class="input-group custom-file-button">
+                        <label class="input-group-text" for="upload1"><i class="bi bi-camera"></i></label>
+                        {{ form.receipt(class="form-control form-control-lg custom-file-button is-invalid", id="upload1") }}
+                    
+                    
+                    <div class="invalid-feedback">
+                        {% for error in form.receipt.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% else %}
+                <div class="input-group custom-file-button">
+                    <label class="input-group-text" for="upload1"><i class="bi bi-camera"></i></label>
+                    {{ form.receipt(class="form-control form-control-lg custom-file-button", id="upload1") }}
+                </div>
+                
+                    
+                {% endif %}
+            </div>
+        </fieldset>
+        <div class="form-group mt-2">
+            {{ form.submit(class="btn btn-info zoom") }}
+        </div>
+    </form>
+</div>
+<!--
+<div class="row">
+    <a href="https://calendly.com/projectcount/interview-app" target="_blank" rel="noopener noreferrer"><div class="offset-md-4 col-4 justify-content-center btn btn-info mt-3 mb-3 zoom">Get involved! Do an interview with us.</div></a>
+</div>
+-->
+{% endblock %}
+
