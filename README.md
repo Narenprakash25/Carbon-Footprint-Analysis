@@ -1,5 +1,7 @@
 This project is a large language model (LLM)-powered application that analyzes the carbon footprint of your grocery Bill of Materials.
 
+![Alt Text](path/to/image.png)
+
 Key Components:
 
 * Flask: Backend framework to process calculations and serve the app.
